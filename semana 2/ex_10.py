@@ -26,17 +26,7 @@ def presenca(total, faltas):
         return 0
 
 
-lista = []
-while True:
-    for i in range(4):
-        lista += [float(input(f"qual foi a {i + 1}ª nota?\n"))]
-
-    calendario = int(input("quantos dias de aula houveram nesse ano?\n"))
-    falta = int(input("quantas faltas o aluno teve?"))
-
-    aprovacaom = media(lista[0], lista[1], lista[2], lista[3])
-    aprovacaop = presenca(calendario, falta)
-
+def situacao(aprovacaom, aprovacaop):
     if aprovacaom <= 0.5 and aprovacaop == 0:
         print("reprovado por falta e media")
     elif aprovacaom == 0.5 and aprovacaop == 1:
@@ -47,6 +37,20 @@ while True:
         print("reprovado por nota")
     else:
         print("reprovado por faltas")
+
+
+lista = []
+while True:
+    for i in range(4):
+        lista += [float(input(f"qual foi a {i + 1}ª nota?\n"))]
+
+    calendario = int(input("quantos dias de aula houveram nesse ano?\n"))
+    falta = int(input("quantas faltas o aluno teve?"))
+
+    Aprovacaom = media(lista[0], lista[1], lista[2], lista[3])
+    Aprovacaop = presenca(calendario, falta)
+
+    situacao(Aprovacaom, Aprovacaop)
 
 
 
