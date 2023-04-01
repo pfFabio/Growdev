@@ -48,4 +48,5 @@ while True:
             print("voce errou")
         if turnos == 34:
             print("atenção esta é a ultima tentativa")
+        turnos += 1
     print("o jogo acabou! obrigado por jogar!")
