@@ -59,7 +59,7 @@ while True:
               f" que se iguala a RS{impostoR[i]:.2f} retidos de forma que"
               f" seu salario liquido foi R${salario_liquido[i]:.2f}")
 
-    print(f"os funcionário trabalharam um total de {sum(horas)} horas")
+    print(f"\nos funcionário trabalharam um total de {sum(horas)} horas")
     print(f"e receberam um total de R${sum(salarios_brutos):.2f} em valores brutos")
     print(f"contribuiram com um total de R${sum(impostoR):.2f} em impostos")
     print(f"recebendo assim um total de R${sum(salario_liquido):.2f} em salários líquidos")
