@@ -29,11 +29,12 @@ def preenche():
 
 while True:
     campo = []
+    continuo, recorde= 0, 0
     controle, vencer, turnos = 0, 0, 0
     for i in range(20):
-        campo += [[preenche()]]
+        campo += [[preenche()]] #preenche a cabeça da matrix e preparando pra receber mais valores
         for j in range(19):
-            campo[i] += [preenche()]
+            campo[i] += [preenche()] #preenche a coluna/linha da matrix
 
     print(campo)
     print(f"temos {controle} barcos")
@@ -41,12 +42,20 @@ while True:
         x = int(input("me passe a coordenada x do seu tiro"))
         y = int(input("me passe a coordenada y do seu tiro"))
         if campo[x][y] == 1:
-            print("voce acertou!")
+            print("voce acertou um navio!")
             campo[x][y] = 0
             vencer += 1
+            continuo += 1
         else:
             print("voce errou")
+            continuo = 0
+        if continuo > recorde:
+            recorde = continuo
+        print(f"você acertou {vencer} tentativas nos navios e {turnos - vencer} na agua")
+
         if turnos == 34:
             print("atenção esta é a ultima tentativa")
         turnos += 1
+    print(f"você teve {vencer/turnos * 100:.2f}% de acertos e {(1 - vencer/turnos) * 100:.2f}% de erros")
+    print(f"seu recorde de acertos consecutivos foi {recorde}")
     print("o jogo acabou! obrigado por jogar!")
