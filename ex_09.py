@@ -11,18 +11,17 @@ Saída: d _ d _ _
 Se completar a frase o usuário ganha o jogo, se sua p
 """
 
-from unidecode import unidecode
 
 
-nome_arquivo = "E:\growdev\palavras com 5 letras.txt"
+
+nome_arquivo = "palavras com 5 letras.txt"
 
 arquivo = open(nome_arquivo, 'r')
 
 conteudo = arquivo.readlines()
 
-palavras = conteudo.split('\n')
-
-print(unidecode(palavras))
+for i in range(len(conteudo)):
+    conteudo[i] = conteudo[i].replace('\n', '')
 
 print(conteudo)
 
