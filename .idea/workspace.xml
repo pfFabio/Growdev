@@ -5,42 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b148dcf-b55d-4ec3-b791-f8478d17931d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/funções.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/growdev1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquivos/ex_de_arquivos.py" beforeDir="false" afterPath="$PROJECT_DIR$/arquivos/ex_de_arquivos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex_01.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex_02.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex_03.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex_04.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex_05.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex_06.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex_07.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex_08.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex_09.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/palavras com 5 letras.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semana 2-2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semana 2-2/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semana 2-2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semana 2-2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semana 2-2/.idea/semana 2-2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semana 2-2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semana 3-1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semana 3-1/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semana 3-1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semana 3-1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semana 3-1/.idea/semana 3-1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semana 3-1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testes.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/gráficos/cor_ex_03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -50,8 +31,58 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Q3TZ0Sq1w5GMbH9Rb9fh0Hz4zb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="cor_ex_03" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="growdev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gráficos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gráficos/cor_ex_03.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.cor_ex_03" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b148dcf-b55d-4ec3-b791-f8478d17931d" name="Changes" comment="" />
+      <created>1684581319009</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684581319009</updated>
+    </task>
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -65,7 +96,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="origin/fabio_branch" />
                       </list>
                     </value>
                   </entry>

@@ -1,0 +1,83 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"9b148dcf-b55d-4ec3-b791-f8478d17931d\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/.gitignore\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/funções.iml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/growdev1.iml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/modules.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/vcs.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/arquivos/ex_de_arquivos.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/arquivos/ex_de_arquivos.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ex_01.py\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ex_02.py\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ex_03.py\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ex_04.py\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ex_05.py\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ex_06.py\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ex_07.py\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ex_08.py\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ex_09.py\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/main.py\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/palavras com 5 letras.txt\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/semana 2-2/.idea/.gitignore\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/semana 2-2/.idea/inspectionProfiles/profiles_settings.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/semana 2-2/.idea/misc.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/semana 2-2/.idea/modules.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/semana 2-2/.idea/semana 2-2.iml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/semana 2-2/.idea/vcs.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/semana 3-1/.idea/.gitignore\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/semana 3-1/.idea/inspectionProfiles/profiles_settings.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/semana 3-1/.idea/misc.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/semana 3-1/.idea/modules.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/semana 3-1/.idea/semana 3-1.iml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/semana 3-1/.idea/vcs.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/testes.py\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master2\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"origin/master\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,39 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="9b148dcf-b55d-4ec3-b791-f8478d17931d" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/funções.iml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/growdev1.iml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/arquivos/ex_de_arquivos.py" beforeDir="false" afterPath="$PROJECT_DIR$/arquivos/ex_de_arquivos.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/ex_01.py" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/ex_02.py" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/ex_03.py" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/ex_04.py" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/ex_05.py" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/ex_06.py" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/ex_07.py" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/ex_08.py" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/ex_09.py" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/palavras com 5 letras.txt" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/semana 2-2/.idea/.gitignore" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/semana 2-2/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/semana 2-2/.idea/misc.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/semana 2-2/.idea/modules.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/semana 2-2/.idea/semana 2-2.iml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/semana 2-2/.idea/vcs.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/semana 3-1/.idea/.gitignore" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/semana 3-1/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/semana 3-1/.idea/misc.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/semana 3-1/.idea/modules.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/semana 3-1/.idea/semana 3-1.iml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/semana 3-1/.idea/vcs.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/testes.py" beforeDir="false" />
+-    </list>
++    <list default="true" id="9b148dcf-b55d-4ec3-b791-f8478d17931d" name="Changes" comment="update" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -52,6 +20,14 @@
+   </component>
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="TaskManager">
++    <task id="LOCAL-00001" summary="update">
++      <created>1684543491876</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1684543491876</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -65,7 +41,7 @@
+                   <entry key="branch">
+                     <value>
+                       <list>
+-                        <option value="origin/master" />
++                        <option value="origin/fabio_branch" />
+                       </list>
+                     </value>
+                   </entry>
+@@ -77,4 +53,8 @@
+       </map>
+     </option>
+   </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="update" />
++    <option name="LAST_COMMIT_MESSAGE" value="update" />
++  </component>
+ </project>
+\ No newline at end of file
