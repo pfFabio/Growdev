@@ -11,6 +11,20 @@ minimo = 1
 maximo = 20
 desenha = ''
 
+def desenha_linha(linhas,char_central, char_lateral):
+    desenha = char_lateral
+    for i in range(linhas):
+        desenha += char_central
+    desenha += char_lateral
+    print(desenha)
+
+
+def retangulo(linhas = 1, colunas = 1):
+    desenha_linha(linhas, '-', '+')
+    for i in range(colunas):
+        desenha_linha(linhas, ' ', '|')
+    desenha_linha(linhas, '-', '+')
+
 while True:
     linhas = int(input("qual a largura do retangulo?"))
     colunas = int(input("qual a altura do retangulo?"))
@@ -24,24 +38,5 @@ while True:
     elif colunas > maximo:
         colunas = maximo
 
-#desenha linha superior
-    desenha = '+'
-    for i in range(linhas):
-        desenha += '-'
-    desenha += '+'
-    print(desenha)
+    retangulo(linhas, colunas)
 
-    #desenha linhas intermediarias
-    for i in range(colunas - 2):
-        desenha = '|'
-        for i in range(linhas):
-            desenha += ' '
-        desenha += '|'
-        print(desenha)
-
-    #desenha linha inferior
-    desenha = '+'
-    for i in range(linhas):
-        desenha += '-'
-    desenha += '+'
-    print(desenha)

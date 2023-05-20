@@ -75,11 +75,11 @@ for i in lista:
 #separando custo por pessoa
     controle = 0
     for k in baleias:
-        if k['nome'] == i['nome']:
+        if k['nome'] == i['nome'] + ' ' + i['sobrenome']:
             k['gastos'] += i['compra']
             controle = 1
     if controle == 0:
-        baleias.append({'nome': i['nome'], 'gastos': i['compra']})
+        baleias.append({'nome': i['nome'] + ' ' + i['sobrenome'], 'gastos': i['compra']})
 
 #contando uso de crédito por homens
     if i['sexo'] == "M" and i['pagamento'] == 'credito':

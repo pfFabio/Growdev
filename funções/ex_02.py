@@ -4,12 +4,10 @@ função retorna o valor de caractere ‘P’, se seu argumento for positivo, e 
 se seu argumento for zero ou negativo
 """
 
-def verdadeiro_falso(A):
-    if A:
+def positivo_negativo(A):
+    if A > 0:
         return 'P'
-    else:
-        return 'F'
+    return 'N'
 
-
-A = True
-print(verdadeiro_falso(A))
+retorno = positivo_negativo(1)
+print(retorno)
