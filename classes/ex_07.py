@@ -22,17 +22,17 @@ class Carros():
         self._tanque = 0
 
     def andar(self, distancia):
-        self._tanque = distancia / self.__consumo
+        self._tanque -= distancia / self.__consumo
 
 
     def adicionar_gasolina(self,quantidade):
         self._tanque += quantidade
 
     def obter_gasolina(self):
-        teclado = input(f"o tanque tem {self._tanque}litros de combustivel, digite:\n1 -- abastecer\n2 -- voltar")
+        teclado = input(f"o tanque tem {self._tanque} litros de combustivel, digite:\n1 -- abastecer\n2 -- voltar")
         if teclado == '1':
-            abastece = input("digite a quantidade em litros a ser abastecido")
+            abastece = float(input("digite a quantidade em litros a ser abastecido"))
             self.adicionar_gasolina(abastece)
             self.obter_gasolina()
         elif teclado == '2':
-            print("obrigado pela preferencia")
+            print("dirija em segurança")
