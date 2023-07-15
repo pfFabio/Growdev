@@ -1,4 +1,3 @@
-
 #os dados vem em formato string do arquivo, essa função converte para formatos mais faceis de trabalhar
 def converte_dado(dado,tipo):
     if tipo == int:

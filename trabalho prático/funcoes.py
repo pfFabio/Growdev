@@ -9,4 +9,4 @@ def somatorio(dados, coluna):
 
 #usa a função somatório em conjunto com o "len" para retornar a média da coluna
 def media(dados, coluna):
-    return somatorio(dados, coluna)/len(dados)
+  somatorio(dados, colunas)/len(dados)

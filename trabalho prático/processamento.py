@@ -1,4 +1,3 @@
-
 #retorna os valores de uma linha especifica
 def localiza(lista, linha):
     if linha < len(lista):
@@ -119,4 +118,3 @@ def salvar_arquivo(nome_arquivo, separador, lista, cabecalho=None):
 
     arquivo.write(cabecalho_str)
     arquivo.close()
-

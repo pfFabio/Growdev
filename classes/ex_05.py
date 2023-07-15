@@ -44,4 +44,3 @@ ret4 = retangulo(4, 8)
 
 centr1 = ret1.centro()
 print(" o centro do retangulo tem as seguintes coordenadas:")
-centr1.imprimir()

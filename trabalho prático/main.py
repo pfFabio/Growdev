@@ -14,3 +14,4 @@ atualizacao(lista, 'escola', '==', 'Pedro I', 'P1')
 salvar_arquivo('aluno2.csv',',',filtrado,cabecalho)"""
 
 print(prof_agrupar(lista,'escola'))
+
