@@ -29,11 +29,13 @@ class BombaCombustivel():
         self.__valor_litro = valor_litro
         self.__quantidade_combustivel = quantidade_combustivel
 
+
     def abastecer_por_litro(self, litro):
         valor = litro * self.__valor_litro
         self.__quantidade_combustivel -= litro
         print(f"o abastecimento custou R${valor:.2f}")
         return valor
+
 
     def abastecer_por_valor(self, valor):
         litro = valor/ self.__valor_litro
@@ -49,4 +51,3 @@ class BombaCombustivel():
 
     def alterar_quantidade_combustivel(self, nova_quantidade):
         self.__quantidade_combustivel = nova_quantidade
-        

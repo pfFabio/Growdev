@@ -10,15 +10,15 @@ ii) mostra_cor"""
 
 
 class bola():
-    def __init__(self, cor, circunferencia, material):
+    def __init__(self, cor, circunferencia):
         self.cor = cor
         self.circunferencia = circunferencia
-        self.material = material
 
     def troca_cor(self, nova):
         self.cor = nova
 
     def mostra_cor(self):
         print(self.cor)
+
 
 
