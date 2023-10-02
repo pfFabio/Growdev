@@ -1,0 +1,6 @@
+-- language: MYSQL
+
+DROP DATABASE IF EXISTS stream;
+
+CREATE DATABASE IF NOT EXISTS stream;
+

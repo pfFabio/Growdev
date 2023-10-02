@@ -1,0 +1,21 @@
+#body{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+#filtros{
+    display: flex;
+}
+
+.filtro{
+
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
+.texto{
+    font-family: cursive;
+    font-size: larger;
+}
